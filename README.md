@@ -4,4 +4,4 @@
 - Evenly Chango
 - Bryan Sinchiguano
 - Michelle Ortuño
--Jefferson Yanqui
+- Jefferson Yanqui
