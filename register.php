@@ -48,7 +48,9 @@
             <label>Correo Electronico</label><br>
             <input type="email" required placeholder="Ingresar su Correo Electronico"><br>
             <label>Contraseña</label><br>
-            <input type="password" required placeholder="Ingresar una Contraseña"><br><br>
+            <input type="password" required placeholder="Ingresar una Contraseña"><br>
+            <label>Confirmar Contraseña</label><br>
+            <input type="password" required placeholder="Confirmar Contraseña"><br><br>
 
             <button>Registrar</button>
             <br><br>
