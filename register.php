@@ -9,30 +9,35 @@
 </head>
 <body>
     <a href="index.php">Inicio</a>
+<div>
     <h1>Registro de Usuario</h1>
         <form method="POST">
             <label>Nombres</label><br>
-            <input type="text"><br>
+            <input type="text" required  placeholder="Ingresar su nombre"><br>
             <label>Apellidos</label><br>
-            <input type="text"><br>
+            <input type="text" required  placeholder="Ingresar su apellido"><br>
             <label>Cedula</label><br>
-            <input type="text"><br>
+            <input type="text" minlength="10" maxlength="10" required placeholder="Ingresar su numero de Cedula"><br>
             <label>Fecha de Nacimiento</label><br>
             <input type="date"><br>
             <label>Genero</label><br>
-            <input><br>
+            <select>
+            <option>Hombre</option>
+            <option>Mujer</option>
+            <option>Otro</option>
+            </select><br>
             <label>Provincia</label><br>
-            <input type="text"><br>
+            <input type="text" required pattern="[A-Za-z]" placeholder="Ingresar su Provincia"><br>
             <label>Ciudad</label><br>
-            <input type="text"><br>
+            <input type="text" required pattern="[A-Za-z]" placeholder="Ingresar su Ciudad"><br>
             <label>Direccion</label><br>
-            <input type="text"><br>
+            <input type="text" required pattern="[A-Za-z0-9]" placeholder="Ingresar su Direccion"><br>
             <label>Codigo Postal</label><br>
-            <input type="text"><br>
+            <input type="text" required pattern="[0-9]" placeholder="Ingresar su Codigo Postal"><br>
             <label>Telefono Fijo</label><br>
-            <input type="text"><br>
+            <input type="text" required pattern="[0-9]" placeholder="Ingresar su Telefono Fijo" minlength="7" maxlength="7" ><br>
             <label>Telefono Movil</label><br>
-            <input type="text"><br>
+            <input type="text" required pattern="[0-9]" placeholder="Ingresar su Telefono Fijo" minlength="10" maxlength="10"><br>
             <label>Elije un Letra</label><br>
             <select>
             <option>A</option>
@@ -41,11 +46,12 @@
             </select>
             <br>
             <label>Correo Electronico</label><br>
-            <input type="email"><br>
-            <label type="password">Contraseña</label><br>
-            <input><br><br>
+            <input type="email" required placeholder="Ingresar su Correo Electronico"><br>
+            <label>Contraseña</label><br>
+            <input type="password" required placeholder="Ingresar una Contraseña"><br><br>
 
             <button>Registrar</button>
         </form>
+</div>
 </body>
 </html>

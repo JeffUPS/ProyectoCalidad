@@ -8,17 +8,19 @@
     <title>Login</title>
 </head>
 <body>
+<div>
     <h1>Inicio de Sesion</h1>
-        <form method="POST">
+        <form method="POST" action="welcome.php">
             <label>Correo Electronico</label><br><br>
-            <input type="email" required>
+            <input type="email" placeholder="Ingresar su correo Electronico" required>
             <br><br>
             <label>Contraseña</label><br><br>
-            <input type="password" required>
+            <input type="password" placeholder="Ingresar su Contraseña" required>
             <br><br>
             <button>Iniciar Sesion</button>
             <br><br>
-            <a href="register.php">Registrar</a>
+            <p>Unete Ahora?<p> <a href="register.php">Registrar</a>
         </form>
+</div>
 </body>
 </html>
