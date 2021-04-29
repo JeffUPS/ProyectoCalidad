@@ -9,7 +9,7 @@
 </head>
 <body>
     <a href="index.php">Inicio</a>
-<div>
+<div class="div1">
     <h1>Registro de Usuario</h1>
         <form method="POST">
             <label>Nombres</label><br>
@@ -51,6 +51,7 @@
             <input type="password" required placeholder="Ingresar una Contraseña"><br><br>
 
             <button>Registrar</button>
+            <br><br>
         </form>
 </div>
 </body>
