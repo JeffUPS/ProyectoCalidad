@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=stylesheet href="css/style.css" type=text/css media=screen>
+    <link rel=stylesheet href="css/style.css" type=text/css media="screen">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
     <title>Login</title>
 </head>
 <body>
 <div>
+  <center>
     <h1>Inicio de Sesion</h1>
         <form method="POST" action="welcome.php">
             <label>Correo Electronico</label><br><br>
@@ -21,6 +26,8 @@
             <br><br>
             <p>Unete Ahora?<p> <a href="register.php">Registrar</a>
         </form>
+  </center>
 </div>
 </body>
+<script src="script.js"></script>
 </html>

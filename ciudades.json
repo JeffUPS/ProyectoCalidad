@@ -1,0 +1,147 @@
+[
+    {
+     "provincia":"Azuay",
+     "ciudad":[
+       "Cuenca","Gualaceo","Paute","Santa Isabel"
+     ]
+    }, 
+    {
+     "provincia":"Bolivar",
+     "ciudad":[
+       "Guaranda","San Miguel","Caluma","Chimbo"
+     ]
+    }, 
+    {
+     "provincia":"Cañar",
+     "ciudad":[
+       "Azogues","Biblian","El Tambo","Suscal"
+     ]
+    }, 
+    {
+     "provincia":"Carchi",
+     "ciudad":[
+       "Tulcan","San Gabriel","El Angel","Huaca"
+     ]
+    }, 
+    {
+     "provincia":"Chimborazo",
+     "ciudad":[
+       "Riobamba","Cumanda","Alausi","Guano"
+     ]
+    }, 
+    {
+     "provincia":"Cotopaxi",
+     "ciudad":[
+       "Latacunga","La Mana","Salcedo","Pujili"
+     ]
+    }, 
+    {
+     "provincia":"El Oro",
+     "ciudad":[
+       "Machala","Pasaje","Santa Rosa","Huaquillas"
+     ]
+    }, 
+    {
+     "provincia":"Esmeraldas",
+     "ciudad":[
+       "Esmeraldas","Quininde","San Lorenzo","Atacames"
+     ]
+    }, 
+    {
+     "provincia":"Galapagos",
+     "ciudad":[
+       "Puerto Baquerizo Moreno","Puerto Villamil","Puerto Ayora"
+     ]
+    }, 
+    {
+     "provincia":"Guayas",
+     "ciudad":[
+       "Guayaquil","Duran","Milagro","Daule"
+     ]
+    }, 
+    {
+     "provincia":"Imbabura",
+     "ciudad":[
+       "Ibarra","Otavalo","Atuntaqui","Cotacachi"
+     ]
+    }, 
+    {
+     "provincia":"Loja",
+     "ciudad":[
+       "Loja","Catamayo","Macara","Cariamanga"
+     ]
+    }, 
+    {
+     "provincia":"Los Rios",
+     "ciudad":[
+       "Quevedo","Babahoyo","Buena Fe","Ventanas"
+     ]
+    }, 
+    {
+     "provincia":"Manabi",
+     "ciudad":[
+       "Portoviejo","Chone","El Carmen","Manabi"
+     ]
+    }, 
+    {
+     "provincia":"Morona Santiago",
+     "ciudad":[
+       "Macas","Sucua","Gualaquiza","Logroño"
+     ]
+    }, 
+    {
+     "provincia":"Napo",
+     "ciudad":[
+       "Tena","Archidona","El Chaco","Baeza"
+     ]
+    }, 
+    {
+     "provincia":"Orellana",
+     "ciudad":[
+       "Pto. Francisco de Orellana","Loreto","Nuevo Rocafuerte","Tiputini"
+     ]
+    }, 
+    {
+     "provincia":"Paztasa",
+     "ciudad":[
+       "Puyo","Santa Clara","Arajuno","Mera"
+     ]
+    }, 
+    {
+     "provincia":"Pichincha",
+     "ciudad":[
+       "Quito","Sangolqui","Cayambe","Machachi"
+     ]
+    }, 
+    {
+     "provincia":"Santa Elena",
+     "ciudad":[
+       "Santa Elena","La Libertad","Salinas"
+     ]
+    }, 
+    {
+     "provincia":"Santo Domindo",
+     "ciudad":[
+       "Santo Domingo","La Concordia"
+     ]
+    }, 
+    {
+     "provincia":"Sucumbios",
+     "ciudad":[
+       "Nueva Loja","Shushufindi","El Dorado","Lumbaqui"
+     ]
+    }, 
+    {
+     "provincia":"Tungurahua",
+     "ciudad":[
+       "Ambato","Baños de Agua Santa","Pelileo","Pillaro"
+     ]
+    }, 
+    {
+     "provincia":"Zamora Chinchipe",
+     "ciudad":[
+       "Zamora","Zumba","Zumbi","Palanda"
+     ]
+    }
+   ]
+   
