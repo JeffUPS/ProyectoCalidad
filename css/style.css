@@ -3,7 +3,8 @@
         width: 100%;
         height: auto;
         /*background-image:url(/image/wallpaper.jpeg);*/
-        background-color: #3C567B;
+        /*background-color: #3C567B;*/
+        background-image: radial-gradient(circle at 50% -3.03%, #9170fd 0, #ad66f1 5%, #c35ce3 10%, #d551d4 15%, #e446c3 20%, #f03bb2 25%, #f832a0 30%, #fe2c8e 35%, #ff2c7c 40%, #ff306a 45%, #ff3858 50%, #fb4247 55%, #f54c35 60%, #ec5722 65%, #e36107 70%, #d86a00 75%, #cb7300 80%, #bd7b00 85%, #af8200 90%, #9f8800 95%, #8e8d00 100%);
         background-position: center;
         background-repeat: no-repeat, repeat; 
     }
@@ -26,7 +27,10 @@
         border-radius: 10px;
         padding: 40px;
         text-align: center;
+        position: right;
     }
+
+    
     
     input,select {
         border: 1px solid black;

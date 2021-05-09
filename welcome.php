@@ -1,3 +1,12 @@
+<?php
+session_start();
+if(!isset($_SESSION['datos_login']))
+{
+  header("Location: welcome.php");
+}
+$arregloUsuario=$_SESSION['datos_login'];
+ 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

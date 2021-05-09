@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,14 +16,14 @@
 <div>
   <center>
     <h1>Inicio de Sesion</h1>
-        <form method="POST" action="welcome.php">
+        <form method="POST" action="check.php">
             <label>Correo Electronico</label><br><br>
-            <input type="email" placeholder="Ingresar su correo Electronico" required>
+            <input type="email" name="correo" placeholder="Ingresar su correo Electronico" required>
             <br><br>
             <label>Contraseña</label><br><br>
-            <input type="password" placeholder="Ingresar su Contraseña" required>
+            <input type="password" name="contrasenia" placeholder="Ingresar su Contraseña" required>
             <br><br>
-            <button>Iniciar Sesion</button>
+            <button type="submit" class="send" name="login_user">Iniciar Sesion</button>
             <br><br>
             <p>Unete Ahora?<p> <a href="register.php">Registrar</a>
         </form>

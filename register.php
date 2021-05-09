@@ -1,3 +1,6 @@
+<?php
+  require 'database.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,17 +19,17 @@
 <div class="div1">
     
       <h1>Registro de Usuario</h1>
-          <form method="POST" action="index.php">
+          <form method="POST" action="registro.php">
               <label>Nombres</label><br>
-              <input type="text" required  placeholder="Ingresar su nombre"><br>
+              <input type="text" name="nombre" required  placeholder="Ingresar su nombre"><br>
               <label>Apellidos</label><br>
-              <input type="text" required  placeholder="Ingresar su apellido"><br>
+              <input type="text" name="apellido" required  placeholder="Ingresar su apellido"><br>
               <label>Cedula</label><br>
-              <input type="text" minlength="10" maxlength="10" required placeholder="Ingresar su numero de Cedula"><br>
+              <input type="text" name="cedula" minlength="10" maxlength="10" required placeholder="Ingresar su numero de Cedula"><br>
               <label>Fecha de Nacimiento</label><br>
-              <input type="date"><br>
+              <input type="date" name="fecha_nacimiento"><br>
               <label>Genero</label><br>
-              <select>
+              <select name="genero">
               <option>Hombre</option>
               <option>Mujer</option>
               <option>Otro</option>
@@ -40,24 +43,22 @@
                 <option>Seleccione una Ciudad</option>
               </select><br>
               <label>Direccion</label><br>
-              <input type="text" required pattern="[A-Za-z0-9]" placeholder="Ingresar su Direccion"><br>
+              <input type="text" name="direccion" required  placeholder="Ingresar su Direccion"><br>
               <label>Codigo Postal</label><br>
-              <input type="text" required pattern="[0-9]" placeholder="Ingresar su Codigo Postal"><br>
+              <input type="text" name="codigo" required placeholder="Ingresar su Codigo Postal"><br>
               <label>Telefono Fijo</label><br>
-              <input type="text" required pattern="[0-9]" placeholder="Ingresar su Telefono Fijo" minlength="7" maxlength="7" ><br>
+              <input type="text" name="telefono_fijo" required  placeholder="Ingresar su Telefono Fijo" minlength="7" maxlength="7" ><br>
               <label>Telefono Movil</label><br>
-              <input type="text" required pattern="[0-9]" placeholder="Ingresar su Telefono Fijo" minlength="10" maxlength="10"><br>
+              <input type="text" name="telefono_movil" required placeholder="Ingresar su Telefono Fijo" minlength="10" maxlength="10"><br>
               <label>Profesiòn</label><br>
-              <input type="text" placeholder="Ingresar tu profesion" required />
+              <input type="text" name="profesion" placeholder="Ingresar tu profesion" required />
               <br>
               <label>Correo Electronico</label><br>
-              <input type="email" required placeholder="Ingresar su Correo Electronico"><br>
+              <input type="email" name="correo" required placeholder="Ingresar su Correo Electronico"><br>
               <label>Contraseña</label><br>
-              <input type="password" required placeholder="Ingresar una Contraseña"><br>
-              <label>Confirmar Contraseña</label><br>
-              <input type="password" required placeholder="Confirmar Contraseña"><br><br>
+              <input type="password" name="contrasenia" required placeholder="Ingresar una Contraseña"><br>
 
-              <button>Registrar</button>
+              <input type="submit" value="Registrar"/>
               <br><br>
           </form>
 </div>
